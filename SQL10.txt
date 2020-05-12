@@ -1,0 +1,68 @@
+﻿信息系统与数据库技术练习10答题卡
+
+班级：信息管理2班
+姓名：黄家福
+学号：20190307227
+
+*注：排除答案放置在序号下方。* /
+
+（一）
+1。
+使用项目
+
+
+2。
+SELECT Did，Ename，WorkDate，Esex 
+来自员工
+在哪里='D001' 
+按WorkDate DESC排序
+
+3。
+选择*从员工
+ORDER BY Did DESC，BasePay ASC
+
+
+4。
+SELECT Did，Ename，WorkDate，Esex，BasePay
+来自员工
+年份（工作日期）> = 2000
+ORDER BY Did ASC，WorkDate DESC
+
+
+5，
+SELECT MAX（Wages）AS最低，
+       最低工资标准
+       SUM（Wages）AS总和，
+       AVG（工资）AS至少
+从EP
+
+6。
+SELECT COUNT（*）AS记录数，
+       COUNT（DISTINCT Pid）AS课程数
+从EP
+
+7。
+SELECT SUM（Wages）AS总报酬，
+       最低（工资）AS最低报酬
+从EP
+哪里Pid ='A002'
+
+8。
+选择* INTO GGZ
+来自员工
+在哪里BasePay> = 9700
+
+9。
+选择Eid，Ename，Esex INTO #MenE
+来自员工
+Esex ='1'
+
+10。
+SELECT Did，Ename，Esex，Bonus
+来自员工
+在哪里='D002'
+联盟
+SELECT Did，Ename，Esex，Bonus
+来自员工
+
+哪里Esex ='0'
